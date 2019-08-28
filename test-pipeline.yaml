@@ -8,6 +8,6 @@ jobs:
   - script: echo First step is done!
 - job: SampleJob2
   steps:
-  - scripts: echo Second step is done!
+  - script: echo Second step is done!
 
 
