@@ -1,0 +1,13 @@
+name: $(Date:yyyyMMdd)$(Rev:.r)
+variables:
+  var1: value1
+  var2: var2
+jobs:
+- job: SampleJob1
+  steps:
+  - script: echo First step is done!
+- job: SampleJob2
+  steps:
+  - scripts: echo Second step is done!
+
+
